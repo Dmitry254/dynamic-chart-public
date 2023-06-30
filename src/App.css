@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 80%;
+  align-self: center;
+  grid-column-gap: 1%;
+  grid-row-gap: 3%;
+
+}
+.cell{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.web3modal-modal-card {
+  width: 20% !important;
+  min-width: unset !important;
+  max-width: unset !important;
+  position: absolute !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.web3modal-provider-container {
+  flex-direction: row !important; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.web3modal-provider-description {
+  display: none; 
 }
-
-.App-link {
-  color: #61dafb;
+.web3modal-provider-name{
+  margin-top: 0 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.web3modal-modal-lightbox{
+  z-index: 150 !important; 
 }

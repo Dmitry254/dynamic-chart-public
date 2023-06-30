@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Arial';
+    font-weight: 400;
+}
+.mainDiv {
+    width: 99vw;
+    position: relative;
+}
+
+.divMain{
+    background-color: black;
+    position: relative;
+    margin-top: 3vw;
+    height: 51vw;
+    font-family: 'Arial';
+    width: 100%;
+}
+.textMain{
+    z-index: 100;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+.headerAbout{
+    color: white;
+    font-size: 2.3vw;
+    width: 100%;
+    word-wrap: break-word;
+}
+.textAbout{
+    z-index: 90;
+    margin-top: 5%;
+    color: white;
+    font-size: 1.3vw;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.clickText {
+    position: absolute;
+    z-index: 31;
+    color: white;
+    font-size: 1.3vw;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+@media (width > 120em){
+    .mainDiv {
+        left: calc((100% - 1920px) / 2);
+        width: 1920px;
+    }
+    .divMain {
+        height: 1200px;
+        margin-top: 58px;
+    }
+    .headerAbout {
+        font-size: 45px;
+    }
+    .textAbout {
+        font-size: 25px;
+    }
+    .clickText {
+        font-size: 25px;
+    }
+    .button{
+        font-size: 25px;
+    }
+    .button:active{
+        font-size: 24.5px;
+    }
+}

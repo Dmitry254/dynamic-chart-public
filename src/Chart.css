@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Arial';
+    font-weight: 400;
+}
+
+.mainChart {
+    background-color: black;
+    color: white;
+    position: relative;
+    font-family: 'Arial';
+    width: 99vw;
+    height: 51vw;
+}
+
+.descriptionChart {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    border-right-color: wheat;
+    border-right: 0.5rem solid wheat;
+}
+
+.headerChart {
+    width: 90%;
+    font-size: 2.3vw;
+    word-wrap: break-word;
+    float: left;
+    position: absolute;
+    top: 5%;
+    left: 9%;
+}
+
+.textChart {
+    width: 80%;
+    font-size: 1.3vw;
+    word-wrap: break-word;
+    float: left;
+    position: absolute;
+    top: 15%;
+    left: 9%;
+}
+
+.chartChartMain {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+.button {
+    width: 8%;
+    height: 4%;
+    font-size: 1.3vw;
+    position: absolute;
+    margin: 0 0 0 0;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.button:active {
+    width: 7.8%;
+    height: 3.9%;
+    font-size: 1.28vw;
+}
+
+.buttonChartMain {
+    top: 10%;
+    left: 73%;
+}
+
+.buttonChartMain:active {
+    left: 73.1%;
+}
+
+.buttonStart {
+    top: 10%;
+    left: 20%;
+}
+
+.buttonStart:active {
+    left: 20.1%;
+}
+
+.buttonStop {
+    top: 10%;
+    left: 30%;
+}
+
+.buttonStop:active {
+    left: 30.1%;
+}
+
+.buttonRestart {
+    top: 10%;
+    left: 40%;
+}
+
+.buttonRestart:active {
+    left: 40.1%;
+}
+.selectTextMain {
+    width: 5% !important;
+    position: absolute;
+    top: 10.5% !important;
+    left: 60% !important;
+}
+
+.selectSpeedMain {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 6%;
+    height: 4%;
+}
+.selectCustom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 1.3vw;
+    border: 1px solid white;
+    padding-left: 5%;
+    border-radius: 0px !important;
+}
+
+.priceIncreaseAmount {
+    width: 4%;
+    font-size: 1.3vw;
+    word-wrap: break-word;
+    float: left;
+    position: absolute;
+    top: 10.2%;
+    left: 82%;
+    margin: 0 0 0 0;
+}
+
+.priceLabel {
+    width: 20%;
+    font-size: 1.3vw;
+    word-wrap: break-word;
+    float: left;
+    position: absolute;
+    top: 44%;
+    left: -6%;
+    margin: 0 0 0 0;
+}
+
+.secondsLabel {
+    width: 20%;
+    font-size: 1.3vw;
+    word-wrap: break-word;
+    float: left;
+    position: absolute;
+    top: 99%;
+    left: 48%;
+    margin: 0 0 0 0;
+}
+
+@media (width > 120em) {
+    .mainChart {
+        width: 1920px;
+        left: calc((100% - 1920px) / 2);
+        height: 825.59px;
+    }
+
+    .headerChart {
+        font-size: 45px;
+    }
+
+    .textChart {
+        font-size: 25px;
+    }
+    .button {
+        font-size: 25px;
+    }
+    .button:active{
+        font-size: 24.5px;
+    }
+    .selectCustom {
+        font-size: 25px;
+    }
+    .priceIncreaseAmount {
+        font-size: 25px;
+    }
+}
